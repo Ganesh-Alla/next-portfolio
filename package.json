@@ -11,6 +11,7 @@
   "dependencies": {
     "antd": "^5.20.3",
     "aos": "^2.3.4",
+    "mongoose": "^8.6.0",
     "next": "14.2.7",
     "react": "^18",
     "react-dom": "^18",
