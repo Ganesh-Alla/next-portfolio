@@ -5,9 +5,10 @@ import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import Hero from '@/public/assets/hero.png'
 import { Tilt } from "react-tilt";
 import { message } from "antd";
+import Image from "next/image";
 
 const defaultOptions = {
   reverse: false, // reverse the tilt direction
@@ -57,7 +58,7 @@ const Home = ({ darkMode }) => {
               darkMode ? "text-gray-800" : ""
             } md:text-5xl lg:text-6xl`}
           >
-            Hi, I'm <br className="md:hidden" />
+            Hi, I&apos;m <br className="md:hidden" />
             Ganesh Alla
           </h1>
           <div
@@ -127,8 +128,8 @@ const Home = ({ darkMode }) => {
         {/* Image */}
         <div className="mt-8 md:mt-0 md:w-1/2" data-aos="fade-left">
           <Tilt options={defaultOptions} className="transition-all">
-            <img
-              src="/assets/hero.png"
+            <Image
+              src={Hero}
               alt=""
               className="m-auto cursor-pointer overflow-x-hidden rounded-full w-40 md:w-64 lg:w-80"
             />
