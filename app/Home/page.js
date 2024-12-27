@@ -110,7 +110,7 @@ const Home = ({ darkMode }) => {
               }`}
             />
             <Button
-              link="https://drive.google.com/file/d/1MH2Yh9bmrPPN2r3rssQFY8yphcouYm4e/view?usp=drivesdk"
+              link="https://drive.google.com/file/d/1dNKCFjYqkx87ozAY_40dd1uTLO6NkfzR/view?usp=sharing"
               icon={<FaFileAlt size={30} />}
               className={`border-none md:border-4 md:border-gray-800 ${
                 darkMode ? "bg-[#4a4e69]" : ""
